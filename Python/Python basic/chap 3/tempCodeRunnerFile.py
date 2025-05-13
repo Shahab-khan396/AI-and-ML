@@ -1,0 +1,1 @@
+print("hello shahab khan is a good boy \n and not a bad /boy/")

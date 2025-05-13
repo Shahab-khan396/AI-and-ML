@@ -1,0 +1,501 @@
+TransactionID,CustomerName,Age,Gender,ProductCategory,ProductPrice,Quantity,Discount,Total,TransactionDate,PaymentMethod,Country,City,LoyaltyMember,ShippingCost
+1,Kevin Johnson,56,Male,Beauty,89.54,5,0.26,331.3,2024-11-21,Cash,Canada,Toronto,True,23.8
+2,Alice Anderson,69,Male,Home,222.28,5,0.03,1078.06,2024-06-25,PayPal,UK,Birmingham,False,10.24
+3,Edward Brown,46,Female,Home,448.48,5,0.3,1569.68,2024-08-18,PayPal,UK,London,False,32.58
+4,Diana Williams,32,Female,Clothing,165.31,1,0.13,143.82,2024-05-07,Cash,UK,Manchester,False,47.23
+5,Laura Johnson,60,Male,Sports,112.42,1,0.01,111.3,2024-06-04,Gift Card,Canada,Vancouver,True,34.78
+6,Kevin Anderson,25,Male,Electronics,333.48,8,0.01,2641.16,2024-10-17,Debit Card,UK,Manchester,True,8.46
+7,Oliver Wilson,38,Female,Beauty,60.06,8,0.22,374.77,2024-11-22,Credit Card,UK,Manchester,False,20.96
+8,Bob Moore,56,Female,Electronics,631.27,6,0.2,3030.1,2024-10-05,Gift Card,Canada,Toronto,True,29.78
+9,George Smith,36,Female,Sports,91.4,4,0.24,277.86,2025-02-22,Cash,USA,Phoenix,False,23.14
+10,Alice Johnson,40,Female,Beauty,95.5,2,0.03,185.27,2024-06-14,Credit Card,USA,Phoenix,False,42.51
+11,Diana Brown,28,Female,Clothing,87.79,2,0.01,173.82,2024-10-04,PayPal,Canada,Vancouver,False,41.66
+12,Ian Moore,28,Male,Home,284.98,9,0.15,2180.1,2024-11-27,Debit Card,UK,Birmingham,True,32.53
+13,Alice Wilson,41,Female,Electronics,492.51,5,0.12,2167.04,2025-02-28,PayPal,Canada,Toronto,False,21.81
+14,Diana Anderson,70,Male,Books,18.25,4,0.14,62.78,2024-04-24,Cash,USA,Los Angeles,True,16.49
+15,Kevin Anderson,53,Male,Books,47.68,10,0.3,333.76,2025-01-12,Credit Card,USA,Chicago,False,9.76
+16,Ian Miller,57,Male,Sports,232.63,1,0.29,165.17,2024-06-21,Cash,Canada,Toronto,False,20.97
+17,Diana Davis,41,Female,Clothing,36.62,7,0.28,184.56,2024-05-06,Credit Card,Canada,Vancouver,True,23.59
+18,Julia Jones,20,Male,Electronics,881.62,3,0.24,2010.09,2024-08-10,Gift Card,USA,New York,True,35.41
+19,Michael Jackson,39,Male,Clothing,102.61,6,0.11,547.94,2024-10-02,Debit Card,Canada,Montreal,True,34.62
+20,Alice Thomas,70,Female,Electronics,905.1,5,0.12,3982.44,2024-05-29,Gift Card,USA,Phoenix,False,8.15
+21,Michael Williams,19,Male,Sports,242.96,5,0.16,1020.43,2024-12-27,Gift Card,Canada,Vancouver,True,22.79
+22,Laura Miller,41,Male,Sports,136.19,5,0.25,510.71,2024-04-14,Cash,Canada,Montreal,False,13.18
+23,Fiona Jones,61,Female,Books,6.01,1,0.02,5.89,2024-06-06,Debit Card,Canada,Montreal,True,12.06
+24,Charlie Brown,47,Male,Clothing,61.05,1,0.13,53.11,2024-08-22,Credit Card,USA,Los Angeles,False,42.23
+25,Michael Garcia,55,Male,Beauty,83.54,3,0.02,245.61,2024-07-21,Credit Card,Canada,Toronto,False,6.89
+26,Bob Johnson,19,Male,Books,33.51,10,0.15,284.83,2024-05-03,PayPal,USA,Phoenix,False,23.86
+27,George Johnson,38,Female,Clothing,59.0,4,0.27,172.28,2025-03-06,Credit Card,USA,Los Angeles,False,12.57
+28,Fiona Jackson,50,Female,Books,11.27,5,0.23,43.39,2024-06-11,Cash,Canada,Toronto,True,44.57
+29,Fiona Moore,29,Female,Beauty,126.06,2,0.07,234.47,2025-03-02,Gift Card,Canada,Vancouver,True,30.07
+30,Edward Thomas,39,Male,Home,492.51,8,0.29,2797.46,2025-03-26,Gift Card,USA,Chicago,False,15.41
+31,Alice Anderson,61,Male,Home,272.33,2,0.2,435.73,2024-05-03,Gift Card,USA,Phoenix,True,27.61
+32,Hannah Wilson,42,Female,Home,102.41,9,0.0,921.69,2024-07-09,Debit Card,UK,London,False,37.92
+33,Bob White,66,Male,Home,150.71,2,0.08,277.31,2024-06-09,Credit Card,USA,Phoenix,True,48.12
+34,George Johnson,44,Male,Electronics,116.55,9,0.08,965.03,2025-02-12,Cash,UK,London,True,14.92
+35,Ian Jones,59,Female,Home,458.86,7,0.02,3147.78,2024-10-11,Debit Card,UK,Manchester,True,44.88
+36,Nina Taylor,45,Female,Beauty,22.07,8,0.29,125.36,2025-03-02,PayPal,UK,Birmingham,False,47.04
+37,Julia White,33,Male,Sports,179.31,2,0.14,308.41,2025-03-04,Cash,Canada,Montreal,True,46.24
+38,Nina Garcia,32,Male,Sports,93.11,7,0.27,475.79,2024-10-02,Cash,Canada,Vancouver,False,33.59
+39,Julia Brown,64,Male,Electronics,598.76,6,0.1,3233.3,2024-07-19,Cash,USA,Chicago,True,33.34
+40,Laura Johnson,68,Female,Home,332.68,4,0.04,1277.49,2024-11-16,Gift Card,UK,London,False,23.14
+41,Alice Taylor,61,Female,Home,418.28,7,0.14,2518.05,2024-05-14,Cash,Canada,Vancouver,True,38.86
+42,Diana Thomas,69,Female,Home,119.08,4,0.03,462.03,2024-12-06,Credit Card,Canada,Vancouver,False,28.91
+43,Edward Johnson,20,Female,Books,5.49,2,0.15,9.33,2025-02-25,Cash,Canada,Montreal,False,35.48
+44,Nina Brown,54,Male,Clothing,36.01,10,0.28,259.27,2025-02-26,Gift Card,Canada,Toronto,True,24.28
+45,Nina Johnson,68,Female,Books,45.5,7,0.16,267.54,2025-04-11,Cash,Canada,Montreal,False,37.92
+46,George Jones,24,Female,Clothing,176.04,8,0.18,1154.82,2024-10-26,PayPal,UK,Manchester,False,42.1
+47,Hannah Taylor,38,Female,Home,306.76,2,0.05,582.84,2024-12-25,PayPal,UK,London,False,11.59
+48,Nina Garcia,26,Female,Home,308.25,5,0.01,1525.84,2025-03-24,Gift Card,UK,Manchester,False,42.48
+49,Charlie Garcia,56,Female,Books,34.93,1,0.03,33.88,2024-05-15,Credit Card,UK,Manchester,True,29.31
+50,Fiona Brown,35,Male,Books,12.89,7,0.18,73.99,2025-01-30,Credit Card,USA,Houston,False,43.01
+51,Kevin Jones,21,Male,Clothing,183.74,8,0.03,1425.82,2024-12-24,Debit Card,UK,Birmingham,True,24.41
+52,Laura White,42,Female,Sports,134.35,6,0.11,717.43,2024-07-18,Gift Card,Canada,Toronto,True,22.06
+53,Kevin Taylor,31,Male,Clothing,82.8,5,0.17,343.62,2024-08-15,Cash,UK,Manchester,False,46.18
+54,Bob Moore,67,Female,Books,28.35,6,0.12,149.69,2024-06-15,Gift Card,USA,Los Angeles,True,16.3
+55,Kevin Williams,26,Female,Beauty,11.81,2,0.05,22.44,2025-01-12,Debit Card,Canada,Vancouver,False,42.99
+56,Ian Anderson,43,Male,Books,12.48,1,0.08,11.48,2024-12-30,Gift Card,UK,Birmingham,False,26.78
+57,Diana Williams,70,Male,Beauty,112.01,7,0.28,564.53,2024-08-05,Gift Card,UK,Birmingham,False,28.13
+58,Hannah Miller,19,Female,Electronics,174.52,7,0.2,977.31,2025-04-04,Debit Card,UK,Manchester,False,18.88
+59,Edward White,37,Female,Books,32.14,10,0.15,273.19,2024-11-10,Credit Card,Canada,Vancouver,True,30.79
+60,Kevin Anderson,45,Female,Electronics,320.81,10,0.0,3208.1,2024-04-30,Cash,Canada,Vancouver,True,19.63
+61,Ian Brown,64,Male,Sports,125.95,2,0.3,176.33,2024-10-20,Debit Card,USA,Houston,False,6.77
+62,Kevin Garcia,24,Female,Clothing,64.85,2,0.2,103.76,2024-05-04,PayPal,Canada,Montreal,True,17.24
+63,Nina Thomas,61,Female,Beauty,56.57,1,0.1,50.91,2024-11-05,Credit Card,Canada,Montreal,True,5.29
+64,Michael Smith,25,Female,Clothing,146.62,10,0.26,1084.99,2024-09-09,PayPal,UK,Birmingham,True,49.03
+65,Diana Jackson,64,Male,Electronics,367.41,8,0.08,2704.14,2024-10-17,Credit Card,Canada,Vancouver,False,48.46
+66,Alice Thomas,52,Female,Beauty,87.13,8,0.16,585.51,2024-10-19,Cash,UK,Manchester,False,22.78
+67,Fiona Miller,31,Female,Clothing,100.45,1,0.19,81.36,2024-05-07,Cash,UK,Manchester,True,37.78
+68,Edward Johnson,34,Male,Books,34.87,8,0.07,259.43,2024-05-09,Gift Card,Canada,Toronto,False,20.56
+69,Diana White,53,Female,Home,469.68,9,0.29,3001.26,2024-11-17,PayPal,USA,New York,True,35.2
+70,Julia White,67,Female,Electronics,759.31,4,0.22,2369.05,2024-05-23,Credit Card,USA,Chicago,True,41.24
+71,Laura Garcia,57,Male,Clothing,50.84,1,0.17,42.2,2024-11-02,Cash,Canada,Montreal,False,47.6
+72,Diana Taylor,21,Female,Electronics,128.06,1,0.05,121.66,2024-12-06,Debit Card,USA,Los Angeles,False,23.01
+73,Hannah Miller,19,Male,Electronics,336.04,3,0.02,987.96,2025-01-20,Cash,UK,Manchester,False,40.25
+74,Oliver White,23,Male,Beauty,91.29,5,0.1,410.81,2024-11-16,Debit Card,UK,Birmingham,True,16.97
+75,Kevin Davis,59,Female,Beauty,12.46,5,0.23,47.97,2024-08-16,Credit Card,Canada,Vancouver,False,49.56
+76,Charlie Jones,21,Female,Home,258.26,9,0.08,2138.39,2025-01-18,Cash,USA,Houston,False,6.16
+77,Charlie Brown,46,Female,Books,31.86,10,0.16,267.62,2024-12-20,Cash,USA,Chicago,False,32.16
+78,Laura Wilson,35,Female,Electronics,400.82,2,0.22,625.28,2024-08-30,Credit Card,UK,London,False,34.68
+79,Ian Jones,43,Male,Clothing,156.47,2,0.03,303.55,2024-05-15,Cash,Canada,Montreal,False,35.96
+80,Laura Moore,61,Female,Sports,45.38,6,0.21,215.1,2024-08-12,Debit Card,USA,Chicago,False,10.42
+81,George White,51,Male,Electronics,167.62,9,0.03,1463.32,2024-11-20,Cash,Canada,Toronto,False,47.23
+82,Julia Miller,27,Female,Electronics,755.37,1,0.29,536.31,2025-03-02,PayPal,USA,Houston,False,13.15
+83,Fiona Brown,53,Female,Home,257.84,9,0.15,1972.48,2024-07-28,Gift Card,UK,London,False,33.02
+84,Charlie Wilson,31,Female,Books,35.98,9,0.05,307.63,2024-07-01,Debit Card,UK,Manchester,False,15.02
+85,Hannah Johnson,48,Male,Sports,138.93,9,0.1,1125.33,2024-12-28,PayPal,Canada,Montreal,False,18.82
+86,Michael Smith,65,Female,Beauty,40.73,5,0.12,179.21,2024-09-22,Credit Card,UK,Manchester,True,29.59
+87,Nina Johnson,32,Female,Beauty,123.77,9,0.23,857.73,2024-06-09,Debit Card,USA,Chicago,True,23.77
+88,Charlie Taylor,25,Female,Clothing,161.89,4,0.22,505.1,2024-05-16,Gift Card,UK,Birmingham,False,12.21
+89,Charlie Thomas,31,Female,Sports,212.99,2,0.18,349.3,2024-07-20,Gift Card,Canada,Vancouver,False,12.69
+90,Kevin Miller,40,Male,Beauty,44.46,6,0.03,258.76,2024-09-14,Credit Card,Canada,Montreal,False,23.82
+91,Julia Johnson,57,Female,Clothing,122.14,4,0.05,464.13,2025-02-20,Credit Card,Canada,Vancouver,True,39.08
+92,George Miller,38,Male,Books,21.24,6,0.03,123.62,2024-12-15,Debit Card,USA,New York,False,45.41
+93,Julia Davis,33,Male,Clothing,27.4,3,0.17,68.23,2024-09-23,Cash,USA,Phoenix,True,8.79
+94,Ian Jones,62,Male,Beauty,138.01,6,0.26,612.76,2025-03-04,Credit Card,USA,Los Angeles,False,22.69
+95,Ian Jackson,35,Male,Home,85.67,2,0.13,149.07,2025-03-15,Cash,USA,New York,False,9.51
+96,Alice Taylor,64,Male,Home,476.11,2,0.05,904.61,2024-07-27,PayPal,USA,Los Angeles,False,5.75
+97,Laura Johnson,70,Male,Home,234.08,9,0.17,1748.58,2025-01-18,Gift Card,UK,Birmingham,False,34.78
+98,Kevin White,41,Female,Beauty,31.84,7,0.24,169.39,2024-11-08,Cash,USA,Houston,False,32.11
+99,Ian Thomas,43,Male,Home,280.11,3,0.22,655.46,2024-12-16,Gift Card,USA,Houston,False,12.34
+100,Edward Thomas,42,Male,Sports,263.79,1,0.26,195.2,2025-04-10,Cash,UK,Birmingham,True,15.52
+101,Kevin Garcia,62,Male,Books,37.95,8,0.08,279.31,2025-01-09,PayPal,USA,Los Angeles,False,6.07
+102,Bob Jones,58,Female,Clothing,163.25,6,0.06,920.73,2024-10-28,Credit Card,Canada,Vancouver,False,42.57
+103,George Williams,46,Female,Clothing,135.17,7,0.26,700.18,2024-04-27,PayPal,USA,Houston,False,48.86
+104,Hannah Smith,32,Male,Beauty,105.38,9,0.2,758.74,2024-06-20,Credit Card,USA,Houston,True,11.1
+105,Laura White,62,Female,Home,427.61,5,0.09,1945.63,2024-07-28,Credit Card,Canada,Montreal,False,15.42
+106,Laura Jones,18,Male,Home,139.84,1,0.22,109.08,2025-01-21,Gift Card,Canada,Toronto,True,44.08
+107,Ian Thomas,42,Male,Electronics,540.48,10,0.24,4107.65,2024-07-18,PayPal,Canada,Toronto,False,46.69
+108,Charlie Wilson,24,Female,Books,14.95,7,0.18,85.81,2024-08-20,Cash,Canada,Montreal,False,23.88
+109,Oliver Johnson,26,Male,Sports,296.49,5,0.21,1171.14,2024-05-26,PayPal,USA,Los Angeles,False,7.28
+110,Nina Taylor,41,Female,Clothing,189.37,3,0.11,505.62,2024-06-05,Gift Card,Canada,Montreal,False,6.77
+111,Edward Jackson,18,Female,Electronics,135.48,9,0.16,1024.23,2024-06-15,Credit Card,Canada,Vancouver,True,30.83
+112,Kevin Wilson,61,Male,Electronics,735.02,1,0.16,617.42,2024-04-20,Gift Card,UK,London,True,22.68
+113,Julia Brown,25,Male,Beauty,139.16,1,0.25,104.37,2024-09-11,Debit Card,Canada,Montreal,False,6.29
+114,Charlie Garcia,41,Female,Clothing,44.31,1,0.25,33.23,2025-02-09,Debit Card,Canada,Vancouver,False,31.25
+115,Michael Williams,28,Male,Beauty,87.35,3,0.25,196.54,2025-02-22,Cash,UK,Birmingham,True,5.51
+116,Ian Thomas,68,Male,Sports,275.91,6,0.0,1655.46,2024-12-06,Gift Card,UK,Manchester,False,40.43
+117,Oliver Wilson,34,Male,Electronics,130.55,10,0.22,1018.29,2024-09-01,Cash,USA,Houston,False,18.79
+118,Oliver Smith,25,Female,Electronics,727.68,3,0.23,1680.94,2024-07-07,Cash,UK,Birmingham,False,6.81
+119,Julia Garcia,52,Female,Books,18.38,8,0.2,117.63,2024-06-22,Debit Card,USA,Phoenix,False,31.48
+120,Hannah Smith,52,Male,Sports,278.45,10,0.23,2144.06,2024-07-02,Cash,UK,Manchester,True,22.9
+121,Bob White,50,Female,Electronics,973.95,2,0.25,1460.93,2024-07-09,Debit Card,UK,Manchester,True,48.82
+122,Fiona White,22,Female,Sports,284.12,9,0.14,2199.09,2024-12-26,Credit Card,USA,Phoenix,False,29.49
+123,Nina Thomas,59,Female,Clothing,100.1,3,0.15,255.25,2024-11-17,Gift Card,UK,Manchester,False,17.39
+124,Edward Brown,56,Female,Home,433.78,5,0.04,2082.14,2025-01-03,Cash,USA,Chicago,False,36.92
+125,Alice Brown,58,Female,Electronics,860.09,10,0.12,7568.79,2025-01-29,Debit Card,UK,Birmingham,False,17.22
+126,Oliver Moore,45,Male,Books,19.36,8,0.19,125.45,2024-12-11,PayPal,Canada,Montreal,False,45.69
+127,Bob Johnson,24,Male,Clothing,167.49,2,0.23,257.93,2025-03-13,Cash,UK,Manchester,False,21.86
+128,Laura Davis,26,Male,Sports,25.55,6,0.07,142.57,2024-10-06,Credit Card,USA,Chicago,False,29.74
+129,Nina Johnson,25,Female,Beauty,91.46,5,0.04,439.01,2024-04-13,Credit Card,UK,Manchester,False,7.28
+130,Michael Wilson,29,Female,Clothing,53.7,10,0.2,429.6,2024-04-23,PayPal,USA,Los Angeles,False,24.18
+131,Michael Williams,51,Male,Electronics,208.51,9,0.0,1876.59,2024-06-28,Debit Card,USA,New York,True,42.46
+132,Charlie Taylor,50,Female,Sports,36.93,5,0.05,175.42,2024-09-29,Cash,Canada,Vancouver,False,41.25
+133,Hannah Wilson,65,Male,Home,354.22,2,0.01,701.36,2024-11-07,Debit Card,Canada,Toronto,True,15.09
+134,Charlie Jones,40,Male,Clothing,74.58,5,0.05,354.25,2024-10-22,Credit Card,USA,Chicago,False,15.17
+135,Ian Jackson,41,Male,Electronics,752.29,4,0.05,2858.7,2024-05-12,Debit Card,UK,London,False,41.78
+136,Julia Miller,54,Female,Books,7.94,7,0.12,48.91,2025-03-02,Credit Card,USA,Phoenix,False,46.87
+137,Diana White,52,Female,Beauty,50.72,6,0.12,267.8,2025-02-08,Debit Card,USA,Los Angeles,True,9.29
+138,Ian Thomas,61,Male,Sports,168.76,2,0.26,249.76,2025-03-20,PayPal,UK,London,True,25.25
+139,Laura Anderson,57,Male,Clothing,160.24,5,0.15,681.02,2024-04-17,Gift Card,UK,London,True,20.19
+140,Diana Anderson,39,Male,Clothing,70.56,7,0.22,385.26,2025-01-27,PayPal,UK,Birmingham,False,44.18
+141,Edward Miller,44,Male,Home,320.43,7,0.03,2175.72,2025-02-23,PayPal,UK,Manchester,True,8.76
+142,Kevin Taylor,52,Female,Home,445.27,5,0.07,2070.51,2024-11-03,Gift Card,USA,Chicago,False,14.5
+143,Fiona Davis,18,Female,Books,32.71,9,0.21,232.57,2024-06-03,Gift Card,USA,Phoenix,False,38.86
+144,Oliver Wilson,52,Male,Beauty,38.78,4,0.02,152.02,2024-12-15,Cash,Canada,Vancouver,False,7.31
+145,Hannah Johnson,54,Male,Books,6.1,3,0.15,15.55,2025-01-02,Cash,USA,Phoenix,False,27.16
+146,Diana Brown,64,Female,Electronics,883.09,4,0.18,2896.54,2024-10-27,PayPal,UK,Manchester,True,24.89
+147,Bob Garcia,31,Female,Electronics,119.14,5,0.18,488.47,2024-06-26,PayPal,Canada,Toronto,False,20.05
+148,Alice Moore,20,Male,Books,44.36,6,0.01,263.5,2024-11-07,Credit Card,UK,London,False,22.76
+149,Ian Brown,18,Male,Beauty,81.7,3,0.1,220.59,2025-04-05,Credit Card,USA,Chicago,True,28.85
+150,Julia Brown,22,Male,Books,47.26,2,0.19,76.56,2024-09-28,Cash,Canada,Toronto,False,12.26
+151,Alice Johnson,43,Female,Beauty,120.82,4,0.04,463.95,2025-02-15,Cash,UK,Manchester,True,30.74
+152,Laura Taylor,31,Female,Beauty,149.7,5,0.21,591.32,2024-05-26,Credit Card,Canada,Toronto,False,41.24
+153,Alice Brown,56,Female,Sports,114.95,4,0.22,358.64,2024-10-01,Credit Card,Canada,Montreal,False,39.21
+154,Bob White,44,Male,Beauty,116.24,3,0.29,247.59,2025-02-24,Debit Card,USA,New York,True,11.93
+155,Alice Jackson,26,Male,Home,212.93,8,0.06,1601.23,2024-11-15,Debit Card,UK,Birmingham,False,11.72
+156,Fiona Johnson,32,Female,Beauty,74.58,10,0.25,559.35,2024-07-11,Credit Card,Canada,Vancouver,False,17.07
+157,Ian Brown,32,Female,Beauty,95.99,4,0.16,322.53,2024-11-06,Debit Card,Canada,Toronto,False,21.25
+158,Edward Taylor,43,Male,Beauty,131.68,2,0.11,234.39,2024-09-22,Gift Card,UK,Manchester,False,23.38
+159,Hannah Brown,59,Female,Electronics,985.68,2,0.04,1892.51,2024-12-07,Cash,Canada,Toronto,False,35.59
+160,Ian Williams,30,Female,Home,388.77,1,0.22,303.24,2024-06-11,Cash,Canada,Toronto,True,7.55
+161,Laura White,68,Male,Home,220.53,4,0.07,820.37,2024-06-22,Credit Card,Canada,Vancouver,True,6.56
+162,Oliver Moore,49,Female,Books,23.96,10,0.11,213.24,2025-02-07,PayPal,UK,Manchester,True,22.64
+163,Julia Davis,56,Male,Sports,225.21,9,0.02,1986.35,2024-05-22,Credit Card,UK,Birmingham,False,36.37
+164,Diana Thomas,66,Male,Beauty,39.62,7,0.24,210.78,2024-10-18,Debit Card,UK,London,False,13.7
+165,Hannah Thomas,69,Male,Clothing,30.99,10,0.23,238.62,2024-12-17,PayPal,UK,Birmingham,False,33.87
+166,George Brown,49,Male,Sports,116.07,7,0.22,633.74,2024-09-20,Debit Card,USA,Houston,False,16.69
+167,Bob Johnson,21,Male,Sports,96.86,7,0.09,617.0,2024-05-26,Gift Card,Canada,Toronto,True,44.87
+168,Kevin Miller,47,Male,Home,162.23,8,0.05,1232.95,2025-03-12,Debit Card,UK,London,True,45.31
+169,Fiona Miller,54,Male,Sports,81.58,1,0.19,66.08,2024-12-20,Gift Card,Canada,Vancouver,True,18.38
+170,George Davis,40,Female,Beauty,11.1,10,0.15,94.35,2024-04-12,Gift Card,Canada,Montreal,True,15.35
+171,Nina Anderson,56,Male,Beauty,7.59,10,0.05,72.1,2024-05-22,Debit Card,USA,Houston,True,23.51
+172,Alice Taylor,62,Male,Electronics,988.95,8,0.21,6250.16,2024-05-03,Debit Card,UK,Manchester,False,15.82
+173,Kevin Taylor,32,Female,Beauty,67.03,4,0.3,187.68,2025-02-04,Gift Card,UK,Manchester,True,35.26
+174,Bob Smith,60,Female,Beauty,60.73,4,0.22,189.48,2025-01-27,PayPal,Canada,Montreal,True,42.17
+175,George Anderson,46,Female,Home,346.23,4,0.22,1080.24,2025-02-26,Gift Card,UK,London,True,35.29
+176,Fiona Thomas,53,Male,Beauty,36.65,6,0.29,156.13,2024-07-26,Cash,Canada,Toronto,True,42.1
+177,Nina Johnson,30,Female,Electronics,954.97,7,0.06,6283.7,2024-11-09,Gift Card,Canada,Montreal,False,22.86
+178,Diana Brown,49,Male,Clothing,159.41,6,0.17,793.86,2024-11-08,PayPal,USA,Houston,False,12.03
+179,Diana Wilson,24,Male,Home,62.92,1,0.29,44.67,2024-04-14,Cash,USA,New York,False,38.21
+180,Hannah Williams,68,Male,Clothing,89.34,8,0.05,678.98,2024-08-21,Credit Card,USA,New York,False,21.22
+181,George Williams,39,Male,Home,441.98,10,0.21,3491.64,2025-02-20,Credit Card,Canada,Montreal,True,35.21
+182,Edward Davis,45,Female,Books,47.51,7,0.18,272.71,2024-06-10,PayPal,UK,Manchester,False,17.18
+183,Diana Jackson,19,Female,Sports,148.21,6,0.18,729.19,2024-07-24,Gift Card,USA,New York,True,8.66
+184,Oliver Johnson,59,Male,Books,32.6,6,0.21,154.52,2024-06-01,Debit Card,UK,Birmingham,True,49.67
+185,Hannah Thomas,62,Male,Beauty,29.22,5,0.28,105.19,2024-12-08,PayPal,USA,New York,True,12.03
+186,Nina Jackson,70,Male,Clothing,198.32,6,0.23,916.24,2024-08-10,Cash,USA,Los Angeles,True,49.48
+187,Ian Johnson,23,Female,Beauty,38.59,9,0.02,340.36,2025-03-13,Cash,Canada,Toronto,True,48.98
+188,Alice Taylor,45,Male,Sports,283.68,10,0.26,2099.23,2024-12-11,Credit Card,USA,Phoenix,True,40.72
+189,Ian Jackson,45,Male,Home,331.83,9,0.07,2777.42,2024-12-08,Cash,USA,Chicago,False,34.67
+190,Alice Johnson,61,Female,Sports,188.2,10,0.11,1674.98,2025-03-06,PayPal,Canada,Toronto,True,31.0
+191,Oliver Thomas,61,Female,Electronics,561.42,8,0.14,3862.57,2024-10-24,Cash,UK,London,True,43.97
+192,Nina Brown,37,Male,Sports,80.74,10,0.14,694.36,2024-12-09,PayPal,USA,New York,False,18.02
+193,Charlie Miller,47,Female,Electronics,258.88,9,0.13,2027.03,2024-04-20,Debit Card,Canada,Vancouver,True,26.05
+194,Hannah Davis,28,Female,Sports,77.84,10,0.28,560.45,2025-03-08,Credit Card,USA,Houston,True,32.87
+195,Diana Jackson,45,Male,Electronics,267.79,8,0.21,1692.43,2025-01-15,Cash,Canada,Vancouver,False,23.5
+196,George White,42,Female,Clothing,158.12,8,0.19,1024.62,2024-11-29,PayPal,UK,Birmingham,True,24.24
+197,Alice Williams,56,Male,Beauty,55.77,1,0.01,55.21,2024-09-28,Gift Card,UK,Birmingham,True,19.86
+198,George Smith,50,Female,Beauty,13.39,10,0.27,97.75,2024-07-12,Credit Card,Canada,Toronto,False,30.39
+199,George Jones,18,Male,Books,48.61,5,0.27,177.43,2024-09-23,Debit Card,Canada,Vancouver,True,43.28
+200,Oliver Thomas,44,Male,Beauty,133.15,4,0.23,410.1,2024-07-01,PayPal,Canada,Montreal,False,14.07
+201,Michael Davis,69,Male,Home,465.32,2,0.0,930.64,2025-01-25,Debit Card,UK,Manchester,False,47.05
+202,Edward Miller,30,Female,Sports,298.55,8,0.02,2340.63,2025-02-12,Debit Card,USA,Houston,True,36.01
+203,Laura Anderson,58,Male,Books,12.83,3,0.07,35.8,2024-12-07,Cash,UK,Manchester,False,42.05
+204,Michael Wilson,20,Female,Home,210.2,4,0.04,807.17,2024-12-24,Cash,Canada,Vancouver,False,30.03
+205,Kevin Anderson,56,Male,Home,383.95,7,0.12,2365.13,2024-08-31,PayPal,Canada,Montreal,True,40.08
+206,Hannah Williams,23,Male,Electronics,726.42,10,0.28,5230.22,2024-07-08,Gift Card,UK,Manchester,False,5.73
+207,Diana Jones,25,Female,Beauty,27.31,9,0.14,211.38,2025-02-03,PayPal,Canada,Vancouver,True,41.83
+208,Diana Smith,44,Male,Clothing,165.01,2,0.0,330.02,2025-02-02,Gift Card,UK,Birmingham,False,6.81
+209,Julia Anderson,26,Male,Clothing,52.64,3,0.08,145.29,2024-10-29,Debit Card,Canada,Toronto,True,45.05
+210,Ian Smith,54,Female,Books,15.07,4,0.01,59.68,2024-06-11,Credit Card,USA,Phoenix,False,49.64
+211,Laura Garcia,50,Male,Clothing,112.03,10,0.01,1109.1,2024-11-01,PayPal,USA,New York,True,18.23
+212,Alice Smith,68,Male,Sports,183.99,1,0.08,169.27,2024-04-12,PayPal,Canada,Toronto,False,14.46
+213,Julia Davis,59,Male,Clothing,120.22,7,0.08,774.22,2024-05-05,Gift Card,UK,Birmingham,True,39.44
+214,Ian White,61,Male,Books,9.12,2,0.24,13.86,2024-06-07,Debit Card,USA,Los Angeles,False,16.39
+215,Nina Wilson,41,Female,Clothing,176.72,5,0.29,627.36,2024-05-04,Debit Card,UK,Manchester,False,43.95
+216,Charlie Smith,32,Female,Sports,90.7,1,0.11,80.72,2025-03-01,Gift Card,Canada,Vancouver,False,9.63
+217,Ian Johnson,49,Male,Electronics,216.56,3,0.13,565.22,2024-04-23,Debit Card,UK,London,False,10.67
+218,Nina Williams,49,Female,Books,44.99,2,0.25,67.48,2024-12-24,Cash,USA,Los Angeles,False,49.06
+219,Bob Moore,41,Male,Electronics,960.09,1,0.08,883.28,2025-02-20,Credit Card,UK,London,False,35.32
+220,Bob Taylor,58,Female,Electronics,875.91,7,0.05,5824.8,2024-08-05,PayPal,UK,London,False,43.11
+221,Nina Brown,69,Male,Electronics,828.56,5,0.26,3065.67,2024-05-06,Credit Card,Canada,Vancouver,True,19.59
+222,George Johnson,66,Male,Home,334.52,1,0.01,331.17,2025-03-22,PayPal,Canada,Toronto,False,35.44
+223,Oliver Moore,66,Male,Beauty,84.87,6,0.19,412.47,2024-06-16,Cash,Canada,Toronto,False,31.74
+224,Diana Moore,69,Male,Home,61.75,5,0.17,256.26,2024-11-24,Debit Card,USA,New York,False,32.14
+225,Julia Smith,29,Male,Beauty,64.23,3,0.1,173.42,2024-04-18,Gift Card,USA,Houston,False,35.71
+226,Julia Johnson,56,Male,Electronics,435.42,7,0.09,2773.63,2024-05-23,Cash,Canada,Montreal,True,30.89
+227,George Taylor,19,Female,Books,16.69,10,0.23,128.51,2025-01-10,Credit Card,Canada,Vancouver,True,24.31
+228,Julia Moore,20,Male,Beauty,109.9,9,0.03,959.43,2024-07-06,Gift Card,USA,Phoenix,False,17.42
+229,Ian Garcia,66,Female,Sports,156.32,9,0.07,1308.4,2024-12-08,Debit Card,USA,Houston,False,39.59
+230,Oliver Jones,54,Male,Sports,38.1,9,0.22,267.46,2024-12-22,Cash,USA,Chicago,False,15.18
+231,Diana Taylor,66,Female,Clothing,51.83,2,0.16,87.07,2024-04-23,Gift Card,USA,New York,False,36.16
+232,Laura Garcia,34,Female,Beauty,104.07,3,0.04,299.72,2024-11-24,Cash,Canada,Toronto,False,15.5
+233,Diana Jones,66,Female,Books,8.43,7,0.26,43.67,2024-07-13,Cash,USA,Chicago,True,33.14
+234,George Williams,19,Male,Home,428.58,5,0.12,1885.75,2025-01-03,Debit Card,Canada,Vancouver,False,38.62
+235,Kevin Taylor,19,Male,Electronics,545.63,2,0.25,818.44,2024-08-03,PayPal,UK,Manchester,False,14.84
+236,Edward Davis,45,Female,Clothing,101.31,3,0.24,230.99,2024-05-09,Gift Card,UK,Birmingham,True,7.7
+237,Fiona White,40,Male,Sports,183.84,10,0.19,1489.1,2024-12-29,Debit Card,USA,Houston,False,10.89
+238,Michael White,54,Female,Home,415.85,6,0.15,2120.84,2024-09-10,Cash,UK,London,False,32.27
+239,Bob Smith,49,Male,Home,186.95,7,0.29,929.14,2024-08-06,Debit Card,UK,Birmingham,True,43.23
+240,Hannah Moore,50,Female,Electronics,710.21,9,0.04,6136.21,2024-11-11,PayPal,UK,London,True,7.02
+241,Julia Johnson,18,Female,Beauty,87.03,1,0.22,67.88,2024-08-05,Gift Card,USA,Chicago,False,38.04
+242,Bob Wilson,36,Male,Sports,91.1,7,0.06,599.44,2024-07-11,PayPal,USA,Phoenix,True,20.36
+243,Diana Wilson,19,Female,Books,44.54,8,0.1,320.69,2024-10-29,Credit Card,UK,Birmingham,False,26.53
+244,Edward Williams,70,Male,Home,402.76,3,0.09,1099.53,2024-05-06,Gift Card,Canada,Toronto,False,46.8
+245,Oliver Garcia,61,Female,Electronics,692.61,4,0.28,1994.72,2025-04-04,PayPal,UK,Manchester,False,19.94
+246,Oliver Johnson,43,Female,Books,43.28,10,0.29,307.29,2024-07-02,Cash,USA,New York,False,25.94
+247,Oliver Brown,49,Male,Beauty,130.76,6,0.05,745.33,2025-04-07,Gift Card,USA,Phoenix,True,5.62
+248,Fiona Jones,23,Male,Sports,216.88,10,0.01,2147.11,2024-11-18,Gift Card,USA,Los Angeles,False,8.67
+249,Charlie Davis,49,Male,Beauty,126.37,7,0.22,689.98,2025-01-01,Debit Card,UK,Birmingham,True,16.64
+250,Nina Wilson,21,Female,Home,354.79,4,0.13,1234.67,2024-10-30,Cash,Canada,Toronto,False,6.25
+251,Laura Jones,28,Male,Books,35.61,8,0.03,276.33,2024-11-16,Credit Card,USA,Chicago,True,33.41
+252,Julia Thomas,34,Female,Books,32.84,5,0.21,129.72,2025-02-07,PayPal,USA,Los Angeles,False,24.19
+253,Kevin Wilson,55,Female,Books,38.87,1,0.16,32.65,2025-01-11,Debit Card,UK,London,True,29.67
+254,Alice Taylor,41,Male,Home,96.13,4,0.29,273.01,2024-12-16,PayPal,Canada,Toronto,True,12.86
+255,Nina Wilson,22,Male,Home,442.82,3,0.07,1235.47,2024-04-23,Credit Card,UK,London,True,18.32
+256,Edward White,69,Female,Beauty,131.42,9,0.12,1040.85,2024-07-19,Credit Card,USA,Chicago,True,34.87
+257,Kevin Johnson,51,Female,Clothing,15.56,8,0.16,104.56,2024-06-06,Gift Card,Canada,Vancouver,False,48.44
+258,Oliver Williams,23,Male,Beauty,124.74,1,0.24,94.8,2024-10-21,Credit Card,Canada,Vancouver,True,7.27
+259,Edward Johnson,39,Male,Sports,51.73,6,0.16,260.72,2025-02-24,PayPal,USA,Phoenix,False,45.07
+260,Oliver Johnson,28,Male,Electronics,401.61,9,0.18,2963.88,2024-11-23,Cash,Canada,Montreal,False,30.96
+261,Laura Wilson,65,Male,Books,38.46,7,0.07,250.37,2024-08-09,Cash,Canada,Montreal,False,30.38
+262,Charlie Jones,33,Male,Clothing,40.54,4,0.25,121.62,2024-11-14,Gift Card,UK,London,True,27.51
+263,Edward Moore,50,Female,Electronics,836.17,1,0.13,727.47,2024-08-09,PayPal,USA,Houston,True,8.12
+264,Diana Anderson,26,Female,Clothing,168.11,2,0.04,322.77,2025-04-07,PayPal,USA,Chicago,False,9.04
+265,Fiona Brown,23,Female,Beauty,78.58,5,0.2,314.32,2024-10-10,Credit Card,USA,Houston,True,32.04
+266,Kevin Taylor,33,Female,Home,23.07,5,0.06,108.43,2025-03-23,PayPal,USA,Chicago,True,20.34
+267,Nina Jones,46,Male,Books,17.92,8,0.03,139.06,2025-02-25,Debit Card,USA,Phoenix,False,46.28
+268,Ian Davis,20,Male,Beauty,94.45,6,0.26,419.36,2025-03-31,Credit Card,Canada,Vancouver,False,23.3
+269,Edward White,37,Male,Electronics,983.07,8,0.14,6763.52,2025-02-01,Debit Card,UK,Manchester,False,11.45
+270,Oliver Jackson,53,Female,Electronics,668.63,2,0.22,1043.06,2025-03-26,Gift Card,USA,Houston,True,37.16
+271,Alice Johnson,36,Female,Electronics,333.82,3,0.09,911.33,2024-11-16,Cash,UK,London,False,18.2
+272,Kevin Miller,43,Male,Electronics,670.61,6,0.24,3057.98,2024-11-09,Gift Card,UK,Birmingham,True,28.65
+273,Nina Jones,20,Male,Electronics,585.99,10,0.03,5684.1,2024-06-12,Cash,Canada,Toronto,True,36.4
+274,Alice Smith,36,Female,Clothing,158.17,3,0.11,422.31,2024-12-25,Gift Card,USA,Houston,False,45.51
+275,Fiona Thomas,37,Female,Beauty,20.51,6,0.29,87.37,2024-08-19,PayPal,Canada,Vancouver,True,40.65
+276,Charlie Taylor,49,Male,Books,39.25,6,0.24,178.98,2024-06-08,Debit Card,USA,Chicago,True,35.44
+277,Edward Williams,24,Male,Home,279.81,2,0.15,475.68,2024-04-25,Cash,Canada,Vancouver,True,35.58
+278,Laura Davis,69,Female,Home,482.24,7,0.1,3038.11,2025-02-01,Credit Card,UK,Manchester,False,47.57
+279,Ian Anderson,58,Male,Beauty,54.57,2,0.26,80.76,2024-10-11,Debit Card,USA,New York,False,18.31
+280,George Wilson,50,Male,Beauty,96.73,6,0.16,487.52,2024-08-05,Credit Card,UK,London,False,5.05
+281,Alice Johnson,57,Male,Home,467.37,1,0.23,359.87,2024-08-27,Debit Card,UK,London,False,17.24
+282,Bob White,56,Female,Home,69.2,3,0.23,159.85,2024-12-31,Debit Card,Canada,Vancouver,True,14.81
+283,Laura White,35,Female,Clothing,188.07,2,0.01,372.38,2025-01-27,Gift Card,USA,Phoenix,False,34.78
+284,Charlie Wilson,57,Female,Sports,211.05,7,0.04,1418.26,2024-09-08,Cash,UK,Birmingham,True,33.52
+285,Alice Jackson,18,Female,Books,8.05,4,0.2,25.76,2024-09-21,Cash,Canada,Toronto,True,31.71
+286,Fiona Moore,28,Female,Electronics,370.87,8,0.05,2818.61,2024-10-02,Debit Card,USA,Chicago,False,5.73
+287,Ian Williams,45,Female,Sports,216.83,6,0.08,1196.9,2024-08-06,PayPal,USA,Phoenix,False,37.8
+288,George Williams,42,Female,Beauty,14.77,10,0.28,106.34,2024-08-13,PayPal,UK,London,True,19.56
+289,Alice Jones,67,Male,Home,299.44,4,0.17,994.14,2024-10-15,Credit Card,USA,Los Angeles,True,34.93
+290,Fiona White,40,Male,Sports,113.58,5,0.23,437.28,2024-09-05,Credit Card,UK,Manchester,True,30.05
+291,Oliver Thomas,48,Male,Books,32.94,9,0.17,246.06,2025-01-20,Gift Card,USA,Phoenix,True,20.42
+292,Nina Smith,47,Male,Beauty,11.63,7,0.17,67.57,2025-01-10,Debit Card,Canada,Vancouver,False,11.06
+293,Oliver Garcia,59,Male,Electronics,884.38,10,0.03,8578.49,2024-10-19,Credit Card,UK,Manchester,False,9.25
+294,Diana Taylor,52,Male,Electronics,976.14,9,0.1,7906.73,2024-08-16,Credit Card,UK,Manchester,False,42.42
+295,Diana Taylor,24,Male,Books,48.6,7,0.08,312.98,2024-07-26,Debit Card,USA,Los Angeles,False,46.33
+296,Bob Garcia,33,Female,Books,38.73,1,0.12,34.08,2024-04-12,Gift Card,USA,Phoenix,True,34.24
+297,Michael Wilson,43,Female,Home,82.44,8,0.24,501.24,2024-10-31,Credit Card,UK,Manchester,False,9.65
+298,Oliver Jackson,65,Male,Electronics,782.44,4,0.11,2785.49,2025-02-23,Gift Card,USA,Houston,False,23.09
+299,George Moore,69,Male,Beauty,8.57,3,0.14,22.11,2024-05-18,Cash,Canada,Toronto,False,37.8
+300,Laura Williams,66,Female,Sports,21.31,7,0.12,131.27,2024-05-19,Gift Card,USA,Houston,False,40.09
+301,Oliver White,19,Male,Beauty,51.92,3,0.03,151.09,2024-12-17,PayPal,Canada,Montreal,False,10.32
+302,Diana Jackson,18,Male,Clothing,102.84,8,0.13,715.77,2024-05-10,PayPal,Canada,Montreal,True,5.0
+303,Charlie Thomas,65,Female,Clothing,156.38,6,0.06,881.98,2024-05-10,Gift Card,Canada,Montreal,False,37.05
+304,Michael Williams,29,Male,Books,35.75,5,0.06,168.02,2024-08-30,PayPal,Canada,Montreal,True,21.05
+305,Oliver Miller,22,Female,Home,234.03,4,0.03,908.04,2024-04-25,Cash,Canada,Vancouver,True,16.45
+306,Alice Williams,54,Male,Clothing,61.99,8,0.11,441.37,2024-05-19,Debit Card,USA,New York,True,5.58
+307,Laura White,49,Female,Electronics,997.41,8,0.23,6144.05,2024-11-16,PayPal,Canada,Toronto,True,29.31
+308,Fiona Thomas,26,Female,Beauty,66.8,1,0.08,61.46,2025-02-08,PayPal,USA,Chicago,False,43.3
+309,Oliver Miller,58,Female,Beauty,70.45,9,0.09,576.99,2024-06-22,Gift Card,Canada,Montreal,False,48.09
+310,Michael Taylor,52,Male,Books,12.36,5,0.19,50.06,2024-05-24,Cash,UK,Birmingham,False,30.46
+311,Nina Anderson,36,Female,Sports,241.52,4,0.06,908.12,2024-05-22,Debit Card,Canada,Montreal,False,28.15
+312,Michael Brown,65,Male,Books,36.22,6,0.27,158.64,2025-03-30,Gift Card,UK,Manchester,False,8.83
+313,Edward Williams,33,Male,Sports,77.92,6,0.16,392.72,2024-10-05,Gift Card,Canada,Vancouver,True,29.7
+314,Michael Anderson,20,Male,Books,8.71,2,0.13,15.16,2024-06-29,Cash,Canada,Montreal,True,22.1
+315,Bob Miller,37,Male,Books,35.62,8,0.17,236.52,2024-09-16,Debit Card,Canada,Vancouver,False,32.32
+316,Nina Smith,41,Female,Books,34.45,7,0.05,229.09,2024-12-19,Cash,UK,London,False,22.49
+317,Nina Davis,50,Female,Sports,92.88,1,0.18,76.16,2025-03-21,Debit Card,UK,Manchester,False,15.81
+318,Diana Brown,41,Male,Sports,286.0,5,0.11,1272.7,2024-04-28,Cash,Canada,Toronto,True,9.27
+319,Nina White,69,Male,Books,11.8,6,0.27,51.68,2024-09-10,Gift Card,USA,Chicago,True,19.17
+320,Hannah Garcia,28,Female,Clothing,92.14,4,0.05,350.13,2024-10-23,Gift Card,Canada,Montreal,False,9.35
+321,Edward Jackson,66,Male,Home,472.94,2,0.15,804.0,2024-05-24,Credit Card,UK,Manchester,True,12.96
+322,Michael Jackson,25,Female,Home,221.47,4,0.18,726.42,2025-02-17,PayPal,Canada,Toronto,True,49.43
+323,Diana Brown,53,Male,Home,326.49,1,0.01,323.23,2024-06-18,Cash,UK,Manchester,False,24.98
+324,Alice Taylor,55,Male,Sports,128.31,7,0.11,799.37,2024-05-27,Credit Card,UK,Birmingham,True,28.93
+325,Diana Miller,57,Female,Sports,93.15,2,0.22,145.31,2024-12-07,PayPal,UK,London,False,44.31
+326,Fiona Jones,37,Male,Clothing,196.96,2,0.25,295.44,2024-07-09,Cash,Canada,Vancouver,True,49.8
+327,Nina Johnson,52,Female,Home,216.48,9,0.09,1772.97,2024-09-20,Debit Card,UK,Birmingham,True,31.22
+328,Michael Jones,65,Male,Home,449.17,5,0.24,1706.85,2024-09-30,PayPal,UK,Manchester,True,41.56
+329,Fiona Taylor,42,Male,Books,15.35,2,0.29,21.8,2024-10-25,Gift Card,Canada,Montreal,False,19.71
+330,Ian Miller,52,Male,Sports,75.73,9,0.26,504.36,2024-11-11,Credit Card,UK,London,True,18.76
+331,Kevin Jackson,42,Female,Home,34.94,9,0.04,301.88,2025-03-08,PayPal,Canada,Toronto,False,23.12
+332,Ian Garcia,46,Male,Beauty,99.49,1,0.22,77.6,2024-10-10,PayPal,UK,Birmingham,True,35.26
+333,Alice Johnson,35,Male,Clothing,80.02,3,0.1,216.05,2024-06-30,Gift Card,USA,Chicago,False,35.7
+334,Oliver Jones,63,Male,Beauty,130.33,4,0.3,364.92,2025-02-14,Cash,USA,Phoenix,True,19.19
+335,Charlie Moore,35,Male,Beauty,73.62,7,0.15,438.04,2024-09-02,Debit Card,UK,Manchester,False,10.99
+336,Edward Smith,19,Female,Clothing,193.96,10,0.04,1862.02,2024-06-13,Gift Card,USA,Houston,False,33.46
+337,Bob Moore,52,Female,Beauty,31.9,4,0.22,99.53,2024-10-31,Debit Card,Canada,Toronto,False,10.77
+338,George Garcia,33,Male,Home,436.94,2,0.1,786.49,2025-03-24,Cash,USA,Los Angeles,True,31.03
+339,Laura Thomas,58,Female,Sports,236.33,7,0.3,1158.02,2024-07-22,PayPal,UK,Manchester,True,36.2
+340,Fiona Miller,53,Male,Clothing,156.48,6,0.29,666.6,2024-07-04,Debit Card,UK,Birmingham,True,36.53
+341,Julia Wilson,50,Male,Books,43.02,3,0.2,103.25,2024-12-20,Credit Card,Canada,Toronto,False,38.91
+342,Bob Miller,21,Male,Beauty,115.35,6,0.04,664.42,2024-05-20,Credit Card,UK,Manchester,False,44.28
+343,Oliver Moore,50,Female,Clothing,128.98,6,0.21,611.37,2025-03-13,Gift Card,Canada,Montreal,False,27.5
+344,Diana Jones,31,Female,Electronics,218.12,5,0.03,1057.88,2024-11-28,Cash,USA,Houston,True,37.86
+345,Alice Anderson,38,Female,Electronics,129.27,4,0.01,511.91,2025-02-04,Gift Card,USA,New York,True,32.86
+346,George Smith,65,Female,Sports,277.44,10,0.25,2080.8,2025-02-06,Gift Card,Canada,Toronto,True,13.4
+347,Ian White,37,Female,Home,315.99,1,0.06,297.03,2024-06-24,Gift Card,Canada,Vancouver,False,6.16
+348,Michael Wilson,25,Female,Sports,242.01,10,0.11,2153.89,2025-03-18,Credit Card,UK,Birmingham,False,17.8
+349,Kevin Anderson,24,Female,Sports,152.23,6,0.29,648.5,2025-03-06,Credit Card,USA,Los Angeles,False,24.94
+350,Laura Anderson,20,Female,Sports,48.43,2,0.1,87.17,2025-04-11,Gift Card,Canada,Vancouver,True,32.77
+351,Kevin Brown,34,Female,Sports,50.68,3,0.09,138.36,2025-03-06,Credit Card,USA,Los Angeles,False,43.25
+352,Fiona Miller,50,Male,Books,35.85,8,0.28,206.5,2024-11-22,Cash,Canada,Montreal,False,13.83
+353,Bob Taylor,65,Female,Books,24.36,10,0.03,236.29,2024-08-23,Gift Card,USA,Phoenix,True,10.65
+354,Oliver Garcia,29,Female,Clothing,48.1,6,0.23,222.22,2024-11-27,Credit Card,UK,London,False,48.36
+355,Julia Garcia,68,Female,Electronics,542.44,3,0.3,1139.12,2024-10-06,Debit Card,USA,Phoenix,False,9.86
+356,Kevin Jackson,39,Female,Sports,33.3,7,0.27,170.16,2024-12-05,Gift Card,USA,Houston,False,26.53
+357,Bob Anderson,39,Female,Clothing,120.57,4,0.2,385.82,2024-09-23,Gift Card,USA,New York,False,31.35
+358,Oliver Jones,63,Female,Electronics,342.09,9,0.09,2801.72,2024-12-06,Cash,USA,Los Angeles,True,29.36
+359,Ian Jones,47,Female,Beauty,120.65,5,0.08,554.99,2024-07-29,PayPal,USA,New York,True,8.87
+360,Kevin Miller,55,Female,Home,168.97,3,0.25,380.18,2024-10-30,PayPal,UK,Manchester,False,7.57
+361,Fiona Miller,55,Female,Books,25.48,2,0.26,37.71,2025-03-08,Cash,Canada,Toronto,True,9.75
+362,Laura Jones,62,Female,Beauty,6.68,2,0.16,11.22,2024-09-30,Cash,USA,Los Angeles,False,31.35
+363,Ian Williams,68,Female,Electronics,165.2,3,0.07,460.91,2024-10-03,Cash,UK,Manchester,False,29.5
+364,Diana Miller,25,Male,Beauty,61.91,2,0.03,120.11,2024-12-29,PayPal,USA,Chicago,False,15.52
+365,Kevin Miller,44,Male,Home,250.37,4,0.03,971.44,2025-03-20,Cash,USA,Phoenix,False,33.7
+366,Kevin Anderson,44,Female,Electronics,640.02,2,0.22,998.43,2024-07-21,Credit Card,Canada,Vancouver,True,41.9
+367,Oliver Williams,51,Female,Beauty,47.29,10,0.13,411.42,2024-06-26,Gift Card,USA,Chicago,True,6.87
+368,Julia Moore,38,Male,Books,36.27,9,0.27,238.29,2024-07-26,Gift Card,UK,Manchester,True,27.42
+369,Edward Miller,47,Female,Books,43.71,2,0.22,68.19,2024-04-19,Debit Card,UK,Manchester,False,36.02
+370,Ian Jackson,50,Male,Clothing,158.17,9,0.06,1338.12,2025-01-27,Debit Card,Canada,Montreal,True,16.35
+371,Alice Jones,45,Male,Beauty,10.74,6,0.18,52.84,2024-04-22,Gift Card,USA,Los Angeles,True,18.85
+372,Edward Brown,64,Male,Sports,151.94,1,0.13,132.19,2025-01-30,Credit Card,UK,Manchester,False,32.61
+373,George Thomas,50,Male,Beauty,20.21,4,0.17,67.1,2024-07-27,PayPal,USA,Phoenix,False,45.41
+374,Julia Moore,22,Male,Electronics,317.84,1,0.22,247.92,2024-10-06,PayPal,USA,Los Angeles,True,41.45
+375,Kevin Garcia,65,Female,Electronics,988.0,6,0.24,4505.28,2024-10-21,Credit Card,USA,Houston,True,31.24
+376,Hannah Davis,36,Male,Beauty,25.66,4,0.25,76.98,2024-06-26,PayPal,Canada,Toronto,False,37.86
+377,Hannah Taylor,21,Female,Home,259.47,3,0.08,716.14,2025-02-26,Cash,USA,Phoenix,True,21.42
+378,Diana Wilson,52,Female,Books,32.82,3,0.01,97.48,2025-02-10,Gift Card,UK,Birmingham,True,33.84
+379,Hannah Thomas,66,Male,Electronics,732.22,9,0.22,5140.18,2025-01-19,Gift Card,USA,Los Angeles,True,25.98
+380,Oliver Thomas,34,Male,Books,30.18,6,0.03,175.65,2024-12-10,Credit Card,UK,London,False,13.55
+381,Laura Williams,61,Female,Electronics,108.79,9,0.09,890.99,2024-04-19,PayPal,USA,Chicago,True,36.58
+382,Kevin Johnson,45,Male,Clothing,72.03,5,0.0,360.15,2025-03-27,Debit Card,UK,Manchester,False,30.04
+383,Edward Wilson,47,Male,Sports,162.55,2,0.2,260.08,2025-02-05,Debit Card,UK,Manchester,False,21.14
+384,Kevin Taylor,46,Female,Electronics,179.08,8,0.05,1361.01,2024-11-18,PayPal,USA,Phoenix,False,46.01
+385,Julia Garcia,63,Female,Books,20.78,5,0.2,83.12,2024-11-01,Debit Card,USA,Chicago,True,5.94
+386,Bob Jackson,70,Male,Clothing,16.31,2,0.3,22.83,2024-08-21,Credit Card,UK,London,False,19.21
+387,Michael Brown,23,Female,Electronics,170.72,4,0.02,669.22,2024-11-19,Credit Card,Canada,Montreal,False,7.56
+388,Kevin Jones,52,Male,Home,210.52,9,0.02,1856.79,2024-04-19,PayPal,USA,Chicago,False,39.49
+389,Diana Thomas,58,Male,Sports,52.82,4,0.1,190.15,2024-10-06,Debit Card,Canada,Vancouver,False,36.59
+390,Diana Williams,54,Male,Electronics,610.79,4,0.26,1807.94,2024-05-25,Credit Card,USA,Phoenix,False,19.91
+391,Alice Smith,41,Female,Clothing,141.0,2,0.06,265.08,2025-03-30,Credit Card,USA,Houston,False,35.4
+392,Diana Davis,46,Female,Home,404.28,6,0.11,2158.86,2024-10-10,Cash,USA,Los Angeles,False,22.82
+393,Julia Jackson,66,Female,Beauty,34.02,2,0.02,66.68,2024-12-22,Cash,USA,Houston,False,39.03
+394,Michael Johnson,63,Female,Clothing,41.82,7,0.23,225.41,2024-06-26,Credit Card,Canada,Vancouver,True,25.44
+395,Hannah Miller,70,Female,Clothing,29.87,3,0.12,78.86,2024-06-21,PayPal,USA,Houston,True,23.55
+396,Oliver Taylor,48,Male,Home,325.49,3,0.23,751.88,2024-09-09,Gift Card,UK,Manchester,True,47.06
+397,Julia Brown,52,Male,Clothing,144.23,5,0.27,526.44,2024-12-13,Gift Card,UK,Manchester,False,16.29
+398,Laura Anderson,50,Male,Home,35.16,3,0.07,98.1,2025-02-16,Credit Card,Canada,Vancouver,False,10.42
+399,George Davis,69,Male,Electronics,942.59,2,0.24,1432.74,2025-03-16,Credit Card,USA,Phoenix,False,31.3
+400,George Brown,38,Female,Home,44.95,10,0.02,440.51,2024-12-15,Credit Card,UK,Manchester,False,48.62
+401,Charlie Taylor,49,Male,Home,279.82,9,0.27,1838.42,2024-09-03,PayPal,Canada,Montreal,False,22.0
+402,Laura Smith,40,Female,Sports,217.08,2,0.2,347.33,2024-08-24,Cash,USA,Chicago,False,7.79
+403,Oliver Thomas,50,Male,Home,438.07,2,0.26,648.34,2025-02-18,Credit Card,UK,London,True,20.27
+404,Nina Thomas,20,Female,Home,362.76,8,0.0,2902.08,2024-06-21,Credit Card,UK,Birmingham,False,27.77
+405,Oliver Johnson,35,Female,Beauty,121.25,9,0.05,1036.69,2024-05-26,Debit Card,Canada,Toronto,True,12.29
+406,Michael Miller,42,Male,Electronics,405.51,7,0.12,2497.94,2024-08-22,PayPal,USA,Phoenix,True,34.61
+407,Diana Williams,59,Male,Sports,247.23,3,0.11,660.1,2024-11-05,Credit Card,USA,Houston,True,49.9
+408,Michael Anderson,48,Male,Beauty,16.62,9,0.07,139.11,2024-07-17,Debit Card,UK,London,True,25.33
+409,Ian Davis,20,Male,Books,45.27,3,0.11,120.87,2025-03-22,Gift Card,UK,Manchester,False,20.96
+410,Alice Wilson,57,Female,Electronics,592.83,5,0.04,2845.58,2025-02-18,Credit Card,UK,London,False,23.03
+411,Diana White,63,Male,Electronics,835.57,9,0.12,6617.71,2024-07-11,Credit Card,USA,Chicago,True,10.18
+412,Nina Johnson,41,Male,Books,25.35,3,0.24,57.8,2024-06-03,Debit Card,Canada,Vancouver,False,44.75
+413,Hannah Williams,67,Female,Home,328.92,7,0.14,1980.1,2024-07-05,PayPal,Canada,Montreal,False,23.67
+414,Michael Davis,49,Male,Beauty,81.33,1,0.01,80.52,2024-09-10,Credit Card,USA,Houston,True,22.43
+415,Kevin Wilson,64,Male,Clothing,149.0,4,0.13,518.52,2025-03-12,Gift Card,Canada,Montreal,False,34.69
+416,Ian Moore,39,Male,Sports,38.26,4,0.01,151.51,2024-05-10,Credit Card,UK,Birmingham,True,24.89
+417,Fiona Thomas,40,Male,Clothing,21.47,7,0.29,106.71,2024-10-11,Gift Card,Canada,Vancouver,False,34.17
+418,Oliver Davis,19,Male,Books,16.12,8,0.04,123.8,2025-03-20,Cash,Canada,Toronto,False,7.77
+419,Julia Jackson,44,Female,Electronics,243.59,1,0.21,192.44,2025-03-11,Cash,Canada,Montreal,True,41.62
+420,Laura White,59,Male,Electronics,884.61,5,0.29,3140.37,2025-01-28,Gift Card,UK,London,True,47.32
+421,Ian Miller,19,Male,Sports,77.48,7,0.25,406.77,2025-04-02,PayPal,USA,Los Angeles,False,34.19
+422,Nina White,43,Male,Electronics,978.28,4,0.21,3091.36,2025-02-17,Credit Card,UK,Birmingham,False,47.96
+423,Ian Davis,34,Male,Electronics,403.21,4,0.25,1209.63,2025-02-19,Credit Card,USA,Phoenix,True,11.81
+424,Oliver Williams,57,Male,Sports,66.9,4,0.29,190.0,2024-11-15,Cash,USA,Chicago,False,26.48
+425,Laura Jackson,50,Female,Beauty,119.51,6,0.19,580.82,2024-11-03,Gift Card,USA,New York,False,32.08
+426,Hannah Davis,26,Male,Beauty,100.51,7,0.17,583.96,2025-03-29,Credit Card,Canada,Montreal,False,31.18
+427,Edward Thomas,60,Female,Sports,156.99,2,0.19,254.32,2024-10-16,Credit Card,Canada,Toronto,False,23.07
+428,Diana Jackson,65,Female,Books,29.99,5,0.16,125.96,2025-02-18,PayPal,USA,Phoenix,False,20.21
+429,Kevin Jones,56,Male,Electronics,747.28,4,0.19,2421.19,2024-05-12,Debit Card,USA,Houston,False,10.71
+430,Michael Thomas,46,Male,Electronics,305.61,3,0.13,797.64,2025-03-21,Cash,Canada,Toronto,False,22.63
+431,Ian Davis,59,Male,Books,49.84,7,0.07,324.46,2025-03-13,Cash,UK,Birmingham,True,12.32
+432,Kevin Brown,43,Male,Beauty,146.35,6,0.04,842.98,2024-10-03,Debit Card,USA,Los Angeles,True,38.05
+433,Edward Davis,52,Female,Home,332.16,7,0.02,2278.62,2024-07-26,Credit Card,UK,Manchester,True,14.4
+434,Bob Anderson,67,Male,Home,115.78,5,0.08,532.59,2024-09-19,PayPal,Canada,Vancouver,False,7.64
+435,Edward Brown,42,Male,Home,346.51,6,0.01,2058.27,2025-02-12,PayPal,USA,Los Angeles,False,29.86
+436,Edward Garcia,41,Male,Beauty,15.47,5,0.17,64.2,2024-07-22,Cash,UK,London,True,31.79
+437,Fiona White,30,Male,Beauty,9.44,7,0.09,60.13,2025-03-31,PayPal,UK,Manchester,False,44.24
+438,Ian Johnson,24,Male,Books,16.6,2,0.25,24.9,2024-12-14,Debit Card,UK,Manchester,False,30.96
+439,Charlie Williams,53,Male,Electronics,516.36,5,0.02,2530.16,2024-06-26,Credit Card,Canada,Montreal,True,20.55
+440,Diana Miller,62,Female,Books,44.07,6,0.07,245.91,2024-05-09,Debit Card,Canada,Vancouver,False,41.14
+441,Laura Williams,37,Female,Books,37.72,6,0.22,176.53,2024-08-07,Gift Card,UK,Birmingham,True,29.31
+442,Laura Brown,18,Male,Beauty,112.69,5,0.18,462.03,2024-04-23,Cash,UK,Manchester,True,8.57
+443,Bob Miller,25,Male,Home,224.24,10,0.02,2197.55,2024-12-06,PayPal,Canada,Vancouver,False,30.46
+444,George Garcia,63,Male,Clothing,75.73,7,0.26,392.28,2025-01-27,Gift Card,UK,London,False,45.86
+445,Ian Davis,33,Female,Electronics,433.93,10,0.26,3211.08,2024-04-16,PayPal,UK,Manchester,True,22.83
+446,George Smith,31,Male,Beauty,148.21,8,0.1,1067.11,2024-09-20,Credit Card,Canada,Vancouver,False,18.33
+447,Diana Jackson,29,Female,Home,39.25,7,0.1,247.28,2025-02-22,Credit Card,UK,Birmingham,False,11.46
+448,George Miller,68,Male,Clothing,174.74,5,0.3,611.59,2025-01-23,Credit Card,UK,Manchester,True,11.82
+449,Oliver Thomas,40,Male,Clothing,119.95,1,0.19,97.16,2024-08-14,PayPal,UK,Manchester,True,24.47
+450,Julia Anderson,32,Male,Beauty,68.6,5,0.16,288.12,2024-04-28,Gift Card,Canada,Vancouver,False,31.81
+451,Alice Jackson,45,Male,Sports,221.7,10,0.25,1662.75,2024-11-09,Credit Card,UK,Birmingham,True,8.63
+452,Oliver Thomas,51,Female,Electronics,538.0,2,0.09,979.16,2024-07-12,Gift Card,Canada,Montreal,False,47.28
+453,Julia Miller,19,Female,Clothing,175.95,5,0.13,765.38,2025-01-06,PayPal,Canada,Vancouver,False,38.98
+454,Hannah Smith,49,Male,Beauty,135.6,5,0.08,623.76,2024-09-10,Gift Card,USA,New York,False,31.4
+455,Fiona Jones,40,Male,Beauty,66.15,2,0.24,100.55,2024-06-22,PayPal,USA,Phoenix,True,42.28
+456,Michael Miller,39,Female,Home,152.88,5,0.17,634.45,2024-09-15,PayPal,UK,London,False,8.61
+457,Nina White,68,Female,Sports,183.82,4,0.2,588.22,2024-05-04,Cash,Canada,Toronto,False,26.46
+458,Nina Miller,42,Female,Electronics,921.13,1,0.08,847.44,2025-01-14,PayPal,USA,Chicago,True,33.35
+459,Ian Anderson,39,Female,Books,14.48,3,0.07,40.4,2024-06-10,PayPal,UK,London,True,42.29
+460,Laura Wilson,39,Male,Home,319.02,1,0.15,271.17,2024-07-22,Debit Card,USA,New York,True,40.26
+461,Michael Moore,66,Female,Clothing,130.0,5,0.22,507.0,2024-05-22,Credit Card,USA,Houston,False,17.47
+462,Oliver Brown,69,Male,Clothing,149.29,4,0.16,501.61,2024-05-27,Cash,Canada,Toronto,False,47.34
+463,Hannah Brown,59,Female,Home,83.15,7,0.01,576.23,2024-11-06,Cash,Canada,Vancouver,True,10.6
+464,Edward Miller,23,Female,Beauty,108.79,5,0.26,402.52,2024-11-07,Cash,USA,New York,False,44.38
+465,Hannah Smith,32,Female,Clothing,182.72,10,0.02,1790.66,2024-11-24,Debit Card,USA,Houston,True,48.69
+466,George Garcia,60,Female,Sports,66.21,4,0.29,188.04,2024-12-12,PayPal,Canada,Toronto,False,12.97
+467,Kevin Taylor,54,Female,Electronics,313.79,2,0.01,621.3,2025-02-06,Credit Card,UK,Birmingham,True,37.49
+468,Michael Miller,50,Male,Sports,291.85,4,0.21,922.25,2024-12-26,Gift Card,Canada,Montreal,False,6.81
+469,Laura Williams,25,Male,Clothing,44.39,2,0.02,87.0,2024-11-16,PayPal,USA,New York,False,23.24
+470,Nina Davis,70,Female,Books,43.45,8,0.27,253.75,2024-11-26,Debit Card,UK,London,False,28.23
+471,Oliver Williams,61,Female,Electronics,543.05,3,0.14,1401.07,2024-11-01,PayPal,USA,Chicago,True,31.13
+472,Julia Wilson,61,Male,Electronics,322.51,9,0.04,2786.49,2025-01-02,PayPal,UK,London,True,47.12
+473,Alice White,22,Female,Home,437.96,4,0.1,1576.66,2024-05-09,Debit Card,USA,Chicago,False,35.25
+474,George Moore,56,Female,Home,233.75,6,0.05,1332.38,2024-06-09,Cash,UK,Manchester,True,26.66
+475,Julia Taylor,21,Male,Books,28.17,10,0.05,267.62,2024-11-22,Cash,UK,Manchester,True,41.44
+476,Alice Johnson,23,Female,Beauty,57.09,5,0.28,205.52,2025-01-19,Credit Card,USA,Houston,True,47.77
+477,Kevin Miller,62,Female,Electronics,633.66,10,0.13,5512.84,2024-10-17,Credit Card,UK,London,False,5.99
+478,Charlie Jackson,49,Male,Books,12.36,1,0.24,9.39,2024-09-26,Cash,Canada,Toronto,False,49.21
+479,Hannah Williams,69,Male,Home,207.72,9,0.19,1514.28,2024-12-21,Gift Card,USA,Phoenix,False,8.88
+480,Alice Jones,47,Male,Home,485.32,1,0.2,388.26,2025-02-15,PayPal,Canada,Montreal,True,41.65
+481,George Garcia,64,Female,Electronics,332.32,8,0.04,2552.22,2024-10-15,Gift Card,USA,Phoenix,True,17.62
+482,Diana Davis,52,Male,Sports,202.17,9,0.07,1692.16,2024-10-08,PayPal,UK,Birmingham,False,10.95
+483,Fiona Garcia,57,Male,Clothing,71.79,9,0.24,491.04,2024-09-06,Cash,UK,London,False,24.79
+484,Michael White,69,Male,Home,391.27,1,0.29,277.8,2024-05-31,Credit Card,UK,London,True,33.98
+485,George Jones,33,Male,Beauty,23.98,2,0.08,44.12,2024-09-07,Credit Card,USA,Los Angeles,False,22.14
+486,Michael Jackson,30,Male,Beauty,145.62,1,0.08,133.97,2024-12-13,Gift Card,Canada,Toronto,True,7.46
+487,George Jones,67,Male,Home,237.82,10,0.14,2045.25,2024-10-19,Credit Card,Canada,Vancouver,False,31.98
+488,Nina Johnson,59,Female,Sports,82.27,2,0.3,115.18,2025-03-20,Cash,USA,Houston,True,45.61
+489,Hannah Smith,47,Female,Sports,35.95,10,0.08,330.74,2024-09-11,Gift Card,USA,Phoenix,False,22.24
+490,Laura Wilson,36,Male,Books,12.64,8,0.12,88.99,2024-08-20,PayPal,Canada,Vancouver,False,14.73
+491,Alice Garcia,34,Male,Beauty,80.37,5,0.27,293.35,2025-03-30,Credit Card,Canada,Toronto,False,24.92
+492,Diana Taylor,36,Male,Books,20.17,7,0.0,141.19,2025-01-01,Debit Card,Canada,Montreal,True,7.18
+493,Bob Thomas,45,Female,Beauty,125.19,2,0.01,247.88,2025-03-19,Credit Card,Canada,Vancouver,False,41.92
+494,Kevin Smith,43,Female,Clothing,91.87,8,0.18,602.67,2024-04-13,PayPal,USA,Los Angeles,False,42.19
+495,Michael Smith,54,Female,Clothing,57.26,6,0.27,250.8,2025-04-01,Gift Card,USA,Los Angeles,True,31.46
+496,Diana Brown,43,Female,Electronics,655.43,8,0.07,4876.4,2024-07-13,PayPal,UK,Manchester,False,20.89
+497,Nina Smith,70,Female,Books,36.8,1,0.14,31.65,2024-07-05,Debit Card,Canada,Vancouver,False,40.99
+498,Julia Williams,40,Female,Home,100.18,1,0.14,86.15,2025-01-08,Cash,UK,Manchester,False,29.96
+499,Diana Williams,26,Female,Books,12.54,7,0.14,75.49,2024-09-23,Credit Card,USA,Houston,False,42.17
+500,Hannah Taylor,29,Female,Home,37.6,8,0.19,243.65,2025-03-22,Gift Card,USA,Chicago,True,33.42

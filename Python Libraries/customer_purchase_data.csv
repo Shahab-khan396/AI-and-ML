@@ -1,0 +1,151 @@
+CustomerID,CustomerName,Gender,Age,Country,Email,PurchaseAmount,PurchaseDate,ProductCategory,PaymentMethod,ReviewScore,IsMember
+1,Evan Brown,Male,63.0,USA,user1@example.com,114.24,2025-02-10,Home,PayPal,,True
+2,Charlie Miller,Male,47.0,France,user2@example.com,473.64,2024-12-13,Toys,Credit Card,1.0,True
+3,Alice Davis,Male,55.0,France,user3@example.com,392.84,2024-09-21,Groceries,Bank Transfer,1.0,True
+4,Charlie Jones,Female,55.0,USA,user4@example.com,65.6,2025-03-09,Toys,PayPal,4.0,False
+5,Evan Johnson,Female,62.0,France,user5@example.com,466.16,2024-05-08,Toys,Credit Card,1.0,True
+6,Alice Miller,Male,,France,user6@example.com,,2024-12-11,Toys,PayPal,,False
+7,Alice Williams,Female,,Australia,user7@example.com,498.01,2024-07-23,Electronics,PayPal,4.0,False
+8,Fiona Jones,Female,44.0,France,user8@example.com,37.38,2024-05-29,Groceries,Credit Card,4.0,True
+9,Bob Davis,Female,44.0,UK,user9@example.com,371.15,2024-06-28,Groceries,Bank Transfer,5.0,True
+10,Fiona Williams,Female,51.0,Germany,user10@example.com,277.5,2024-08-19,Beauty,Bank Transfer,1.0,True
+11,Diana Jones,Female,38.0,Canada,user11@example.com,355.86,2025-01-18,Home,Debit Card,1.0,False
+12,Jane Davis,Male,47.0,UK,user12@example.com,484.64,2024-08-24,Toys,Credit Card,5.0,True
+13,,Female,50.0,France,user13@example.com,347.13,2024-10-09,Clothing,Debit Card,,False
+14,Diana Johnson,Male,45.0,Australia,user14@example.com,420.11,2025-03-04,Home,Debit Card,3.0,False
+15,Fiona Brown,Male,,USA,user15@example.com,434.77,2025-01-06,Home,Debit Card,3.0,True
+16,Charlie Smith,Female,50.0,France,,420.86,2025-03-14,Groceries,Bank Transfer,5.0,True
+17,Bob Johnson,Male,22.0,Australia,user17@example.com,218.78,2024-06-16,Home,Credit Card,1.0,False
+18,,Male,65.0,Germany,user18@example.com,119.06,2024-05-12,Toys,Debit Card,5.0,False
+19,Bob Smith,Male,36.0,France,user19@example.com,204.36,2024-12-26,Toys,Credit Card,5.0,False
+20,John Williams,Female,,USA,user20@example.com,447.03,2024-05-31,Electronics,Credit Card,3.0,True
+21,,Female,52.0,Australia,user21@example.com,81.84,2024-10-30,Toys,Bank Transfer,2.0,False
+22,Jane Davis,Male,66.0,Australia,user22@example.com,261.53,2024-08-12,Toys,Debit Card,1.0,True
+23,Bob Brown,Female,34.0,Australia,user23@example.com,124.28,2024-11-29,Groceries,Debit Card,3.0,False
+24,Fiona Miller,Female,61.0,Germany,user24@example.com,294.84,2024-05-21,Toys,Credit Card,2.0,False
+25,Diana Garcia,Female,45.0,France,user25@example.com,432.94,2024-12-04,Electronics,PayPal,2.0,True
+26,Evan Garcia,Female,47.0,Germany,user26@example.com,441.38,2024-07-28,Clothing,Bank Transfer,4.0,False
+27,Alice Brown,Male,46.0,Canada,user27@example.com,125.98,2024-12-13,Groceries,Bank Transfer,1.0,True
+28,Evan Brown,Male,63.0,Canada,user28@example.com,454.77,2024-09-06,Clothing,Bank Transfer,2.0,True
+29,Fiona Smith,Female,70.0,France,user29@example.com,300.03,2024-10-08,Groceries,Bank Transfer,3.0,False
+30,,Female,23.0,Germany,user30@example.com,,2025-03-10,Beauty,Debit Card,4.0,True
+31,Alice Miller,Male,52.0,USA,user31@example.com,357.01,2024-07-12,Home,Debit Card,1.0,True
+32,Charlie Smith,Male,58.0,Australia,user32@example.com,246.02,2024-04-16,Beauty,PayPal,5.0,False
+33,Evan Johnson,Female,54.0,Australia,user33@example.com,195.21,2025-04-03,Toys,Bank Transfer,3.0,True
+34,Bob Smith,Male,41.0,France,user34@example.com,355.49,2024-10-09,Clothing,Bank Transfer,2.0,True
+35,Bob Garcia,Female,,Canada,user35@example.com,131.87,2025-01-14,Toys,Credit Card,2.0,True
+36,Jane Johnson,Female,66.0,Canada,user36@example.com,171.82,2024-10-20,Home,Debit Card,3.0,False
+37,John Johnson,Male,63.0,Australia,user37@example.com,222.88,2025-03-26,Groceries,Bank Transfer,2.0,True
+38,,Male,70.0,France,user38@example.com,134.3,2024-10-20,Home,PayPal,4.0,False
+39,Bob Brown,Female,48.0,Germany,user39@example.com,208.55,2024-09-10,Electronics,PayPal,1.0,False
+40,Evan Brown,Female,52.0,Canada,user40@example.com,290.02,2024-07-10,Home,Debit Card,4.0,True
+41,Evan Brown,Male,50.0,Germany,user41@example.com,373.08,2024-09-15,Electronics,PayPal,,True
+42,Charlie Davis,Female,69.0,Canada,user42@example.com,385.93,2024-06-08,Home,PayPal,5.0,True
+43,Evan Williams,Male,38.0,Canada,user43@example.com,413.17,2024-08-08,Electronics,Debit Card,1.0,False
+44,Diana Smith,Female,49.0,UK,user44@example.com,,2024-05-29,Clothing,Bank Transfer,1.0,True
+45,Bob Johnson,Male,40.0,Canada,user45@example.com,343.71,2025-01-10,Toys,Bank Transfer,3.0,True
+46,Fiona Brown,Male,50.0,USA,user46@example.com,126.38,2024-04-13,Toys,PayPal,3.0,True
+47,Jane Garcia,Male,20.0,France,user47@example.com,206.11,2024-07-09,Beauty,PayPal,5.0,True
+48,Diana Garcia,Female,35.0,France,,244.08,2024-09-25,Toys,Bank Transfer,1.0,True
+49,Jane Brown,Female,42.0,Germany,user49@example.com,50.62,2025-02-19,Groceries,Debit Card,5.0,False
+50,Diana Jones,Male,59.0,Canada,user50@example.com,268.9,2024-04-30,Home,PayPal,3.0,False
+51,Evan Johnson,Female,48.0,USA,user51@example.com,223.8,2025-02-28,Beauty,Credit Card,3.0,True
+52,Jane Brown,Male,20.0,Germany,user52@example.com,403.03,2024-04-09,Groceries,Debit Card,1.0,True
+53,Jane Johnson,Male,57.0,UK,user53@example.com,489.17,2024-08-19,Groceries,PayPal,4.0,True
+54,Diana Brown,Female,,Germany,user54@example.com,282.44,2024-11-27,Electronics,PayPal,2.0,True
+55,Diana Miller,Female,41.0,Germany,user55@example.com,168.12,2024-04-20,Toys,Credit Card,3.0,False
+56,Fiona Miller,Male,67.0,Canada,user56@example.com,31.27,2025-03-20,Clothing,Credit Card,3.0,True
+57,Fiona Garcia,Female,49.0,UK,user57@example.com,463.08,2024-05-24,Clothing,Bank Transfer,4.0,False
+58,,Female,,Germany,user58@example.com,460.37,2024-05-12,Beauty,Debit Card,4.0,False
+59,John Garcia,Male,39.0,USA,user59@example.com,,2024-06-25,Clothing,Debit Card,5.0,True
+60,,Male,40.0,USA,user60@example.com,350.75,2024-11-12,Home,Bank Transfer,5.0,False
+61,Fiona Jones,Female,19.0,France,user61@example.com,46.96,2025-02-03,Clothing,Debit Card,2.0,False
+62,Jane Miller,Male,44.0,UK,user62@example.com,91.45,2024-06-20,Beauty,Debit Card,,False
+63,Charlie Davis,Male,59.0,UK,user63@example.com,116.24,2025-01-15,Clothing,Debit Card,1.0,False
+64,Jane Smith,Female,19.0,France,user64@example.com,,2024-12-13,Home,Debit Card,5.0,True
+65,Bob Brown,Male,,Germany,user65@example.com,497.96,2024-05-25,Electronics,Debit Card,3.0,True
+66,Bob Jones,Male,34.0,UK,user66@example.com,351.49,2024-08-07,Beauty,Credit Card,5.0,False
+67,John Jones,Female,57.0,USA,user67@example.com,198.26,2024-11-08,Electronics,Debit Card,3.0,True
+68,Evan Jones,Female,50.0,USA,user68@example.com,371.18,2024-12-03,Electronics,Credit Card,4.0,True
+69,John Smith,Male,26.0,Canada,user69@example.com,458.47,2024-06-03,Electronics,Debit Card,5.0,True
+70,Evan Smith,Male,60.0,UK,user70@example.com,479.76,2025-03-24,Groceries,Bank Transfer,,True
+71,Fiona Smith,Female,65.0,Germany,user71@example.com,38.35,2024-07-24,Toys,PayPal,,True
+72,Bob Davis,Female,56.0,France,user72@example.com,203.32,2025-02-21,Groceries,Credit Card,2.0,False
+73,Fiona Miller,Female,46.0,France,user73@example.com,62.31,2024-05-26,Toys,Debit Card,1.0,True
+74,Alice Williams,Female,59.0,Germany,user74@example.com,174.47,2024-06-08,Electronics,Bank Transfer,5.0,True
+75,John Davis,Male,43.0,Australia,,93.14,2025-03-11,Beauty,PayPal,4.0,True
+76,Alice Williams,Female,52.0,Canada,user76@example.com,326.96,2024-05-04,Toys,Credit Card,3.0,True
+77,,Female,67.0,France,user77@example.com,200.25,2025-01-25,Home,PayPal,2.0,False
+78,Charlie Johnson,Male,42.0,UK,user78@example.com,122.4,2024-12-21,Home,Bank Transfer,2.0,False
+79,Evan Johnson,Female,41.0,Canada,user79@example.com,140.31,2024-04-16,Clothing,Credit Card,3.0,False
+80,John Brown,Male,30.0,UK,user80@example.com,186.57,2024-07-30,Toys,PayPal,4.0,False
+81,Evan Smith,Female,24.0,USA,user81@example.com,137.38,2025-03-29,Beauty,Debit Card,4.0,True
+82,Fiona Brown,Female,53.0,Canada,user82@example.com,232.09,2024-12-17,Groceries,Credit Card,5.0,False
+83,Jane Smith,Female,62.0,France,user83@example.com,25.83,2024-10-05,Electronics,PayPal,5.0,True
+84,,Male,37.0,Canada,user84@example.com,147.08,2024-11-01,Clothing,Bank Transfer,,True
+85,Evan Garcia,Male,18.0,Canada,user85@example.com,211.49,2025-02-05,Home,Bank Transfer,2.0,True
+86,,Female,25.0,Canada,user86@example.com,305.36,2024-08-13,Groceries,Credit Card,5.0,True
+87,Alice Brown,Male,63.0,Australia,user87@example.com,142.77,2024-06-03,Groceries,PayPal,4.0,True
+88,Fiona Garcia,Male,33.0,Canada,user88@example.com,75.26,2024-11-08,Electronics,Credit Card,3.0,False
+89,Alice Williams,Male,31.0,UK,user89@example.com,47.34,2024-04-22,Toys,Credit Card,4.0,False
+90,John Williams,Male,29.0,USA,,470.86,2024-05-06,Home,PayPal,2.0,False
+91,Charlie Miller,Male,68.0,Germany,user91@example.com,214.15,2024-06-25,Beauty,PayPal,4.0,False
+92,,Male,,Canada,user92@example.com,294.77,2024-11-10,Groceries,Debit Card,1.0,True
+93,John Jones,Female,32.0,France,user93@example.com,460.4,2025-04-08,Electronics,PayPal,2.0,False
+94,,Female,45.0,Canada,user94@example.com,50.55,2024-09-09,Beauty,Bank Transfer,3.0,True
+95,Evan Garcia,Male,51.0,France,user95@example.com,439.56,2024-04-22,Toys,Credit Card,1.0,False
+96,Evan Williams,Female,19.0,UK,user96@example.com,,2024-10-12,Home,Credit Card,2.0,True
+97,John Miller,Female,49.0,France,user97@example.com,90.77,2025-02-14,Toys,Bank Transfer,3.0,True
+98,Evan Johnson,Female,,Germany,user98@example.com,211.52,2024-04-15,Groceries,PayPal,1.0,False
+99,Jane Brown,Female,39.0,USA,user99@example.com,391.03,2024-04-11,Beauty,Bank Transfer,1.0,True
+100,Charlie Williams,Male,68.0,France,user100@example.com,245.38,2024-07-28,Beauty,Bank Transfer,2.0,True
+101,Evan Davis,Female,,France,user101@example.com,492.79,2024-12-02,Beauty,Debit Card,5.0,False
+102,Evan Smith,Female,39.0,USA,user102@example.com,194.6,2025-04-06,Groceries,Bank Transfer,1.0,True
+103,Bob Jones,Male,39.0,Germany,user103@example.com,377.29,2024-12-03,Groceries,Credit Card,1.0,False
+104,Fiona Brown,Male,66.0,Canada,user104@example.com,,2025-01-07,Toys,Bank Transfer,3.0,False
+105,Diana Jones,Female,69.0,France,user105@example.com,416.29,2025-01-27,Clothing,Credit Card,4.0,False
+106,Evan Miller,Female,59.0,USA,user106@example.com,288.85,2024-11-21,Toys,Credit Card,2.0,True
+107,Charlie Miller,Female,23.0,UK,user107@example.com,41.12,2024-04-23,Home,Credit Card,2.0,True
+108,Alice Jones,Female,32.0,USA,user108@example.com,28.04,2024-10-17,Electronics,PayPal,5.0,True
+109,Bob Jones,Female,,UK,user109@example.com,75.59,2024-08-05,Beauty,Debit Card,5.0,False
+110,Fiona Miller,Female,54.0,Germany,user110@example.com,16.7,2024-05-06,Clothing,Credit Card,2.0,True
+111,Alice Williams,Male,50.0,Canada,user111@example.com,46.93,2024-10-27,Electronics,Credit Card,5.0,False
+112,Diana Brown,Female,25.0,USA,user112@example.com,348.94,2024-05-17,Clothing,PayPal,3.0,False
+113,Jane Johnson,Female,70.0,Australia,,271.83,2025-01-06,Toys,Credit Card,2.0,True
+114,Charlie Garcia,Male,61.0,France,user114@example.com,377.46,2024-11-25,Groceries,Bank Transfer,5.0,False
+115,John Jones,Male,61.0,Germany,user115@example.com,457.45,2024-07-03,Beauty,Bank Transfer,2.0,True
+116,Diana Brown,Male,22.0,USA,user116@example.com,296.72,2024-08-12,Toys,Debit Card,4.0,True
+117,Bob Brown,Male,56.0,France,user117@example.com,365.8,2025-02-02,Electronics,Credit Card,1.0,True
+118,Bob Brown,Female,21.0,USA,user118@example.com,380.97,2024-05-03,Electronics,PayPal,2.0,True
+119,Diana Garcia,Female,23.0,UK,user119@example.com,195.15,2024-08-31,Electronics,Bank Transfer,,True
+120,Alice Davis,Female,62.0,USA,user120@example.com,128.13,2024-04-21,Electronics,PayPal,,False
+121,Jane Miller,Female,49.0,Australia,user121@example.com,,2024-11-06,Electronics,PayPal,1.0,False
+122,Bob Smith,Female,69.0,USA,user122@example.com,133.21,2024-05-03,Clothing,Bank Transfer,2.0,False
+123,Evan Garcia,Female,47.0,USA,user123@example.com,144.62,2024-06-15,Toys,PayPal,4.0,True
+124,,Male,64.0,Australia,user124@example.com,111.54,2024-06-14,Beauty,Bank Transfer,5.0,True
+125,John Williams,Female,52.0,Germany,user125@example.com,440.33,2024-11-27,Groceries,PayPal,2.0,True
+126,Diana Smith,Male,57.0,USA,user126@example.com,380.93,2024-07-26,Groceries,Bank Transfer,5.0,False
+127,Bob Jones,Male,69.0,Australia,user127@example.com,32.98,2024-09-01,Toys,Credit Card,3.0,True
+128,,Female,33.0,France,user128@example.com,141.65,2024-07-28,Toys,Debit Card,1.0,False
+129,Evan Garcia,Male,,UK,user129@example.com,,2024-11-22,Groceries,Bank Transfer,3.0,False
+130,Fiona Williams,Female,67.0,UK,user130@example.com,254.1,2024-07-28,Groceries,Bank Transfer,2.0,True
+131,John Garcia,Male,59.0,USA,user131@example.com,243.34,2024-05-12,Clothing,Debit Card,4.0,True
+132,Charlie Smith,Female,47.0,Germany,user132@example.com,417.37,2024-07-28,Home,Bank Transfer,5.0,False
+133,Alice Johnson,Male,36.0,Germany,user133@example.com,160.81,2024-12-28,Beauty,Bank Transfer,1.0,True
+134,Bob Davis,Female,34.0,France,user134@example.com,410.03,2024-11-30,Electronics,PayPal,5.0,False
+135,Evan Williams,Female,36.0,USA,user135@example.com,484.31,2024-06-30,Home,Debit Card,2.0,True
+136,Diana Davis,Female,45.0,UK,user136@example.com,,2024-05-20,Toys,Credit Card,5.0,True
+137,Fiona Davis,Female,43.0,Germany,user137@example.com,397.99,2024-07-18,Groceries,Bank Transfer,1.0,False
+138,,Female,54.0,USA,user138@example.com,299.08,2024-04-14,Home,Debit Card,2.0,True
+139,John Garcia,Male,43.0,Germany,user139@example.com,245.22,2024-10-05,Beauty,PayPal,5.0,False
+140,John Johnson,Male,70.0,Australia,user140@example.com,216.06,2025-01-15,Toys,Credit Card,4.0,True
+141,Bob Brown,Male,40.0,Germany,user141@example.com,394.49,2025-02-22,Electronics,Debit Card,,False
+142,,Female,,UK,user142@example.com,323.29,2024-11-20,Electronics,Credit Card,2.0,False
+143,Jane Williams,Male,29.0,Canada,user143@example.com,404.47,2025-02-17,Beauty,Credit Card,4.0,True
+144,John Jones,Female,,France,user144@example.com,,2025-04-08,Beauty,Credit Card,3.0,False
+145,John Davis,Female,18.0,France,user145@example.com,312.46,2024-11-23,Groceries,Bank Transfer,1.0,True
+146,John Williams,Male,18.0,UK,user146@example.com,490.43,2025-01-22,Electronics,Bank Transfer,3.0,True
+147,John Johnson,Male,64.0,Germany,user147@example.com,307.96,2024-09-05,Toys,PayPal,5.0,True
+148,Jane Brown,Female,51.0,USA,user148@example.com,321.96,2025-01-10,Home,PayPal,4.0,False
+149,Diana Miller,Male,,Germany,user149@example.com,281.86,2024-10-23,Toys,Debit Card,3.0,False
+150,Charlie Davis,Female,65.0,UK,user150@example.com,54.59,2024-06-17,Clothing,PayPal,2.0,True
